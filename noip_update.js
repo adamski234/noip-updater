@@ -35,7 +35,7 @@ const username = "";
 const password = "";
 const domains = [""]; //either FQDNs or groupnames
 const updateDomain = "dynupdate.no-ip.com/nic/update"; //Domain to make requests to, from https://www.noip.com/integrate/request
-const protocol = ""; //either http or https
+const protocol = "https://"; //either http or https
 
 
 debugPrint(`${userEmail}, ${username}, ${password}, ${JSON.stringify(domains)}, ${protocol}, ${updateDomain}`);
